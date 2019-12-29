@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+  }
+  #map {
+    height: 85%;
+  }
+  .navbar{
+    background-color: #3c4859;
+    border-bottom: 1.5px solid #fb9a99;
+  }
+  a {
+    color: #f0f0f0;
+  }
+  a:hover {
+    color: #fb9a99;
+  }
+  footer  {
+    width: 100%;
+    background-color: #3c4859;
+    color: #f0f0f0;
+    text-align: center;
+    border-top: 4px solid #fb9a99;
+  }
+  

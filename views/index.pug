@@ -1,0 +1,10 @@
+extends layout.pug
+block content
+
+    #map
+    script(src='/javascript/mapping.js')
+    script(type='text/javascript').
+
+        Mapping.addMap(#{lat}, #{lng}, #{zoom})
+
+
